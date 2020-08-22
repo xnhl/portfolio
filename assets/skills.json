@@ -1,0 +1,87 @@
+[
+	{
+    "title": "HTML5",
+    "image": "/img/web-icons/html5.svg",
+    "link": "https://en.wikipedia.org/wiki/HTML5"
+  },
+  {
+    "title": "CSS3",
+    "image": "/img/web-icons/css3.svg",
+    "link": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets"
+  },
+  {
+    "title": "Javascript",
+    "image": "/img/web-icons/javascript.svg",
+    "link": "https://en.wikipedia.org/wiki/JavaScript"
+  },
+  {
+    "title": "Vue.js",
+    "image": "/img/web-icons/vuejs.svg",
+    "link": "https://vuejs.org"
+  },
+  {
+    "title": "NuxtJS",
+    "image": "/img/web-icons/nuxt.svg",
+    "link": "https://nuxtjs.org"
+  },
+  {
+    "title": "Svelte",
+    "image": "/img/web-icons/svelte.svg",
+    "link": "https://svelte.dev"
+  },
+  {
+    "title": "Sapper",
+    "image": "/img/web-icons/sapper.svg",
+    "link": "https://sapper.svelte.dev"
+  },
+  {
+    "title": "Sass",
+    "image": "/img/web-icons/sass.svg",
+    "link": "https://sass-lang.com"
+  },
+  {
+    "title": "Bootstrap",
+    "image": "/img/web-icons/bootstrap.svg",
+    "link": "https://getbootstrap.com"
+  },
+  {
+    "title": "Git",
+    "image": "/img/web-icons/git.svg",
+    "link": "https://git-scm.com"
+  },
+  {
+    "title": "MongoDB",
+    "image": "/img/web-icons/mongodb.svg",
+    "link": "https://www.mongodb.com"
+  },
+  {
+    "title": "express",
+    "image": "/img/web-icons/express.svg",
+    "link": "https://expressjs.com"
+  },
+  {
+    "title": "Visual Studio Code",
+    "image": "/img/web-icons/visualstudio.svg",
+    "link": "https://code.visualstudio.com"
+  },
+  {
+    "title": "Chrome Dev Tools",
+    "image": "/img/web-icons/chrome.svg",
+    "link": "https://developers.google.com/web/tools/chrome-devtools"
+  },
+  {
+    "title": "Adobe Photoshop",
+    "image": "/img/web-icons/photoshop.svg",
+    "link": "https://en.wikipedia.org/wiki/Adobe_Photoshop"
+  },
+  {
+    "title": "Adobe Illustrator",
+    "image": "/img/web-icons/illustrator.svg",
+    "link": "https://en.wikipedia.org/wiki/Adobe_Illustrator"
+  },
+  {
+    "title": "Adobe Premiere Pro",
+    "image": "/img/web-icons/premiere.svg",
+    "link": "https://en.wikipedia.org/wiki/Adobe_Premiere_Pro"
+  }
+]

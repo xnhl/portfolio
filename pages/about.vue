@@ -20,7 +20,10 @@
 					<div class="cv-section-header">About Me</div>
 					<hr class="divider">
 					<div class="cv-section-text">
-						15+ years of experience with photography and advanced image manipulation with Adobe Photoshop, proficiency with Adobe Illustrator (graphics) and Adobe Premiere Pro (video), web developer for over a year.
+						15+ years of experience with photography and advanced image manipulation.
+					</div>
+					<div class="cv-section-text">
+						2+ years of experience with web development.
 					</div>
 				</div>
 			</div>
@@ -39,8 +42,8 @@
 </template>
 
 <script>
+import skills from '@/assets/skills'
 export default {
-	name: 'about',
 	head() {
 		return {
 			title: 'Matthew McCutcheon - About'
@@ -65,83 +68,7 @@ export default {
 	},
 	data () {
 		return {
-			skills: [
-				{
-					title: 'HTML5',
-					image: '/img/web-icons/html5.svg',
-					link: 'https://en.wikipedia.org/wiki/HTML5'
-				},
-				{
-					title: 'CSS3',
-					image: '/img/web-icons/css3.svg',
-					link: 'https://en.wikipedia.org/wiki/Cascading_Style_Sheets'
-				},
-				{
-					title: 'Javascript',
-					image: '/img/web-icons/javascript.svg',
-					link: 'https://en.wikipedia.org/wiki/JavaScript'
-				},
-				{
-					title: 'Vue.js',
-					image: '/img/web-icons/vuejs.svg',
-					link: 'https://vuejs.org/'
-				},
-				{
-					title: 'NuxtJS',
-					image: '/img/web-icons/nuxt.svg',
-					link: 'https://nuxtjs.org/'
-				},
-				{
-					title: 'MongoDB',
-					image: '/img/web-icons/mongodb.svg',
-					link: 'https://www.mongodb.com/'
-				},
-				{
-					title: 'express',
-					image: '/img/web-icons/express.svg',
-					link: 'https://expressjs.com/'
-				},
-				{
-					title: 'Bootstrap',
-					image: '/img/web-icons/bootstrap.svg',
-					link: 'https://getbootstrap.com/'
-				},
-				{
-					title: 'Git',
-					image: '/img/web-icons/git.svg',
-					link: 'https://git-scm.com/'
-				},
-				{
-					title: 'Sass',
-					image: '/img/web-icons/sass.svg',
-					link: 'https://sass-lang.com/'
-				},
-				{
-					title: 'Visual Studio Code',
-					image: '/img/web-icons/visualstudio.svg',
-					link: 'https://code.visualstudio.com/'
-				},
-				{
-					title: 'Chrome Dev Tools',
-					image: '/img/web-icons/chrome.svg',
-					link: 'https://developers.google.com/web/tools/chrome-devtools'
-				},
-				{
-					title: 'Adobe Photoshop',
-					image: '/img/web-icons/photoshop.svg',
-					link: 'https://en.wikipedia.org/wiki/Adobe_Photoshop'
-				},
-				{
-					title: 'Adobe Illustrator',
-					image: '/img/web-icons/illustrator.svg',
-					link: 'https://en.wikipedia.org/wiki/Adobe_Illustrator'
-				},
-				{
-					title: 'Adobe Premiere Pro',
-					image: '/img/web-icons/premiere.svg',
-					link: 'https://en.wikipedia.org/wiki/Adobe_Premiere_Pro'
-				}
-			]
+			skills
 		}
 	}
 }
@@ -185,7 +112,8 @@ export default {
 					padding: 0.5rem
 					font-size: 1.05rem
 					flex: auto
-					text-align: center
+					// text-align: center
+					text-indent: 0.5rem
 					max-width: 55rem
 					&:last-child
 						text-align: left

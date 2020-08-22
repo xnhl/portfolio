@@ -23,7 +23,7 @@ export default {
 				{
 					hid: 'description',
 					name: 'description',
-					content: 'Matthew McCutcheon - Front-End Web Developer, Image Creator'
+					content: 'Matthew McCutcheon - Front-End Web Developer, Image Maker'
 				}
 			]
 		}

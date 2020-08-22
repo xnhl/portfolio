@@ -1,0 +1,611 @@
+[
+	{
+		"title": "IMDb Top 250 TV Shows",
+		"description": "A detailed list of 250 top-rated TV shows on IMDb. The individual page for each series (rendered server-side) contains charts which visualize the ratings for every season of the show. I wrote custom scripts to scrape the data as there is no official IMDb API.",
+		"image": "/img/web_new/imdbdark.jpg",
+		"versions": [
+			{
+				"title": "Vue",
+				"link": "http://oval-hospital.surge.sh",
+				"repo": "https://github.com/xnhl/imdb-top-250",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Vue.js",
+						"icon": "/img/web-icons/vuejs.svg"
+					},
+					{
+						"title": "Nuxt.js",
+						"icon": "/img/web-icons/nuxt.svg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Time Tracker",
+		"description": "A unique way to visualize time passing. Dynamic progress bars show the progress of each minute, hour, day, week, month, and year.",
+		"image": "/img/web_new/time.jpg",
+		"versions": [
+			{
+				"title": "Vue",
+				"link": "http://modern-receipt.surge.sh",
+				"repo": "https://github.com/xnhl/time-tracker",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Vue.js",
+						"icon": "/img/web-icons/vuejs.svg"
+					},
+					{
+						"title": "Nuxt.js",
+						"icon": "/img/web-icons/nuxt.svg"
+					}
+				]
+			},
+			{
+				"title": "Svelte",
+				"link": "http://disagreeable-icicle.surge.sh",
+				"repo": "https://github.com/xnhl/time-tracker-svelte",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Svelte",
+						"icon": "/img/web-icons/svelte.svg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "The Periodic Table",
+		"description": "The Periodic Table of the Elements. A useful guide showing detailed information on each element (via Wikipedia\"s API).",
+		"image": "/img/web_new/periodic.jpg",
+		"versions": [
+			{
+				"title": "Vue",
+				"link": "http://past-statement.surge.sh",
+				"repo": "https://github.com/xnhl/periodic-table",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Vue.js",
+						"icon": "/img/web-icons/vuejs.svg"
+					},
+					{
+						"title": "Nuxt.js",
+						"icon": "/img/web-icons/nuxt.svg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Contact Congress",
+		"description": "A sortable list of U.S. Congress members with detailed information such as voting statistics and contact information, as well as a page of charts illustrating various interesting statistics about members of Congress.",
+		"image": "/img/web_new/congress.jpg",
+		"versions": [
+			{
+				"title": "Vue",
+				"link": "http://sparkling-boats.surge.sh",
+				"repo": "https://github.com/xnhl/contact-congress",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Vue.js",
+						"icon": "/img/web-icons/vuejs.svg"
+					},
+					{
+						"title": "Nuxt.js",
+						"icon": "/img/web-icons/nuxt.svg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Open Movie Database (omdb)",
+		"description": "Interact with the OMDb API to search for films, tv, et cetera and access detailed information about any work.",
+		"image": "/img/web_new/omdb.jpg",
+		"versions": [
+			{
+				"title": "Vue",
+				"link": "http://curious-direction.surge.sh",
+				"repo": "https://github.com/xnhl/Open-Movie-Database",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Vue.js",
+						"icon": "/img/web-icons/vuejs.svg"
+					}
+				]
+			},
+			{
+				"title": "Svelte",
+				"link": "http://acidic-toy.surge.sh",
+				"repo": "https://github.com/xnhl/Open-Movie-Database-Svelte",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Svelte",
+						"icon": "/img/web-icons/svelte.svg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Ambient Soundboard",
+		"description": "Listen and relax with 54 mixable soundscapes in 5 sets. A wrapper for the ambient soundscapes from 5 websites.",
+		"image": "/img/web_new/sounds.jpg",
+		"versions": [
+			{
+				"title": "Vue",
+				"link": "http://sticky-harbor.surge.sh",
+				"repo": "https://github.com/xnhl/Sounds",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Vue.js",
+						"icon": "/img/web-icons/vuejs.svg"
+					}
+				]
+			},
+			{
+				"title": "Svelte",
+				"link": "http://possessive-cause.surge.sh",
+				"repo": "https://github.com/xnhl/Sounds-Svelte",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Svelte",
+						"icon": "/img/web-icons/svelte.svg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "TED Top Videos",
+		"description": "Lists of TED YouTube videos sorted by date, highest rating, and most views. There is detailed information for each video including ratings and keywords.",
+		"image": "/img/web_new/teddark.jpg",
+		"versions": [
+			{
+				"title": "Vue",
+				"link": "http://smoggy-insurance.surge.sh",
+				"repo": "https://github.com/xnhl/ted-videos",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Vue.js",
+						"icon": "/img/web-icons/vuejs.svg"
+					},
+					{
+						"title": "Nuxt.js",
+						"icon": "/img/web-icons/nuxt.svg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Notes App",
+		"description": "A simple notes app using Local Storage and lowdb. Allows saving files as text or JSON as well as loading previous JSON files.",
+		"image": "/img/web_new/notesdark.jpg",
+		"versions": [
+			{
+				"title": "Vue",
+				"link": "http://flimsy-sense.surge.sh",
+				"repo": "https://github.com/xnhl/notes-app",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Vue.js",
+						"icon": "/img/web-icons/vuejs.svg"
+					},
+					{
+						"title": "Nuxt.js",
+						"icon": "/img/web-icons/nuxt.svg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Deli News Pizza",
+		"description": "A re-design of the website for a local business. I converted their menu into JSON format and cleaned up the home banner image in Photoshop. Original website at: delinewspizza.com.",
+		"image": "/img/web_new/delinews.jpg",
+		"versions": [
+			{
+				"title": "Vue",
+				"link": "http://pleasant-history.surge.sh",
+				"repo": "https://github.com/xnhl/deli-news",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Vue.js",
+						"icon": "/img/web-icons/vuejs.svg"
+					},
+					{
+						"title": "Nuxt.js",
+						"icon": "/img/web-icons/nuxt.svg"
+					},
+					{
+						"title": "Photoshop",
+						"icon": "/img/web-icons/photoshop.svg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Pet Finder",
+		"description": "Use the petfinder API to browse the inventories of local animal shelters and use options to narrow your search.",
+		"image": "/img/web_new/petfinder.jpg",
+		"versions": [
+			{
+				"title": "Vue",
+				"link": "http://thick-goldfish.surge.sh",
+				"repo": "https://github.com/xnhl/pet-finder",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Vue.js",
+						"icon": "/img/web-icons/vuejs.svg"
+					},
+					{
+						"title": "Nuxt.js",
+						"icon": "/img/web-icons/nuxt.svg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Portfolio",
+		"description": "My portfolio. You are here.",
+		"image": "/img/web_new/portfolio_new.jpg",
+		"versions": [
+			{
+				"title": "Vue",
+				"link": "https://xnhl.github.io",
+				"repo": "https://github.com/xnhl/portfolio",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Vue.js",
+						"icon": "/img/web-icons/vuejs.svg"
+					},
+					{
+						"title": "Nuxt.js",
+						"icon": "/img/web-icons/nuxt.svg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Sam Harris",
+		"description": "An unofficial fan site for Sam Harris which neatly provides access to all videos and episodes of his podcast. Data was scraped from his YouTube channel and website (which uses lazy-loading). All videos are sortable and searchable.",
+		"image": "/img/web_new/samharris.jpg",
+		"versions": [
+			{
+				"title": "Vue",
+				"link": "http://adhesive-drop.surge.sh",
+				"repo": "https://github.com/xnhl/Sam-Harris-Videos",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Vue.js",
+						"icon": "/img/web-icons/vuejs.svg"
+					},
+					{
+						"title": "Nuxt.js",
+						"icon": "/img/web-icons/nuxt.svg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "1000+ Useful Tools/Websites",
+		"description": "Over 1000 of some of the most useful tools & websites sorted in 56 categories. Rendered server-side with Sapper.",
+		"image": "/img/web_new/tools.jpg",
+		"versions": [
+			{
+				"title": "Svelte",
+				"link": "http://permissible-treatment.surge.sh",
+				"repo": "https://github.com/xnhl/Tools-Svelte",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Svelte",
+						"icon": "/img/web-icons/svelte.svg"
+					},
+					{
+						"title": "Sapper",
+						"icon": "/img/web-icons/sapper.svg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "cata-list",
+		"description": "A knowledge base of useful information, news articles, media, tools, and quotes. It is intended as a catalyst for creating a better world. 156 pages (server-side rendered), ~3.5k wikipedia & news articles, 1k+ tools & useful websites, ... ",
+		"image": "/img/web_new/catalist.jpg",
+		"versions": [
+			{
+				"title": "Vue",
+				"link": "http://https://cata-list.github.io",
+				"repo": "https://github.com/cata-list/cata-list.github.io",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Vue.js",
+						"icon": "/img/web-icons/vuejs.svg"
+					},
+					{
+						"title": "Nuxt.js",
+						"icon": "/img/web-icons/nuxt.svg"
+					}
+				]
+			}
+		]
+	}
+]

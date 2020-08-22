@@ -15,7 +15,7 @@
 			<div v-for="(series, index) in this.images" :key="index" :id="series.title" class="series hide">
 				<div class="series-image-wrapper">
 					<div v-for="(image, index) in series.list" :key="index" class="series-image">
-						<img @click="showModal" src="" :data-srclg="image.image" :data-lazysrc="image.imageThumb" alt="" class="series-image-actual lazy">
+						<img @click="showModal" src="/img/galleries/placeholder.jpg" :data-srclg="image.image" :data-lazysrc="image.imageThumb" alt="" class="series-image-actual lazy">
 						<p class="series-image-caption">{{image.caption}}</p>
 					</div>
 				</div>
@@ -25,8 +25,18 @@
 </template>
 
 <script>
+import images from '@/assets/images'
 export default {
-	name: 'images',
+	head() {
+		return {
+			title: 'Matthew McCutcheon - Images'
+		}
+	},
+	data() {
+		return {
+			images
+		}
+	},
 	methods: {
 		showModal: function (e) {
 			var modal = document.getElementById('image-modal');
@@ -75,222 +85,6 @@ export default {
 		lazyloadImages.forEach((image) => {
 			imageObserver.observe(image)
 		})
-	},
-	head() {
-		return {
-			title: 'Matthew McCutcheon - Images'
-		}
-	},
-	data() {
-		return {
-			images: [
-				{
-					title: 'Studio',
-					list: [
-						{
-							image: '/img/galleries/studio/1.jpg',
-							imageThumb: '/img/galleries/studio/1-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/studio/3.jpg',
-							imageThumb: '/img/galleries/studio/3-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/studio/2.jpg',
-							imageThumb: '/img/galleries/studio/2-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/studio/4.jpg',
-							imageThumb: '/img/galleries/studio/4-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/studio/5.jpg',
-							imageThumb: '/img/galleries/studio/5-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/studio/6.jpg',
-							imageThumb: '/img/galleries/studio/6-thumb.jpg',
-							caption: ''
-						}
-					]
-				},
-				{
-					title: 'Noir',
-					list: [
-						{
-							image: '/img/galleries/noir/1.jpg',
-							imageThumb: '/img/galleries/noir/1-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/noir/2.jpg',
-							imageThumb: '/img/galleries/noir/2-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/noir/3.jpg',
-							imageThumb: '/img/galleries/noir/3-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/noir/4.jpg',
-							imageThumb: '/img/galleries/noir/4-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/noir/5.jpg',
-							imageThumb: '/img/galleries/noir/5-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/noir/6.jpg',
-							imageThumb: '/img/galleries/noir/6-thumb.jpg',
-							caption: ''
-						}
-					]
-				},
-				{
-					title: 'Skate',
-					list: [
-						{
-							image: '/img/galleries/skate/1.jpg',
-							imageThumb: '/img/galleries/skate/1-thumb.jpg',
-							caption: 'Kevin Romar - Kickflip'
-						},
-						{
-							image: '/img/galleries/skate/2.jpg',
-							imageThumb: '/img/galleries/skate/2-thumb.jpg',
-							caption: 'Julian Davidson - Backside Smith Grind'
-						},
-						{
-							image: '/img/galleries/skate/3.jpg',
-							imageThumb: '/img/galleries/skate/3-thumb.jpg',
-							caption: 'Nick Garcia - Tuckknee'
-						},
-						{
-							image: '/img/galleries/skate/4.jpg',
-							imageThumb: '/img/galleries/skate/4-thumb.jpg',
-							caption: 'Geralle Estes - Wallride'
-						},
-						{
-							image: '/img/galleries/skate/5.jpg',
-							imageThumb: '/img/galleries/skate/5-thumb.jpg',
-							caption: 'Alec Jamir - Backside Salad Grind'
-						},
-						{
-							image: '/img/galleries/skate/6.jpg',
-							imageThumb: '/img/galleries/skate/6-thumb.jpg',
-							caption: 'Nick Garcia - Wallride'
-						},
-						{
-							image: '/img/galleries/skate/7.jpg',
-							imageThumb: '/img/galleries/skate/7-thumb.jpg',
-							caption: 'Nick Garcia - Frontside 180 (the wrong way)'
-						},
-						{
-							image: '/img/galleries/skate/8.jpg',
-							imageThumb: '/img/galleries/skate/8-thumb.jpg',
-							caption: 'Ben Fisher - Backside Flip'
-						},
-						{
-							image: '/img/galleries/skate/9.jpg',
-							imageThumb: '/img/galleries/skate/9-thumb.jpg',
-							caption: 'Julian Davidson - Frontside flip'
-						},
-						{
-							image: '/img/galleries/skate/10.jpg',
-							imageThumb: '/img/galleries/skate/10-thumb.jpg',
-							caption: 'Bucky from AZ - Frontside Smith Grind'
-						}
-					]
-				},
-				{
-					title: 'People',
-					list: [
-						{
-							image: '/img/galleries/portraiture/1.jpg',
-							imageThumb: '/img/galleries/portraiture/1-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/portraiture/2.jpg',
-							imageThumb: '/img/galleries/portraiture/2-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/portraiture/5.jpg',
-							imageThumb: '/img/galleries/portraiture/5-thumb.jpg',
-							caption: 'Re-creation of Magritte\'s "The Pleasure Principle"'
-						},
-						{
-							image: '/img/galleries/portraiture/6.jpg',
-							imageThumb: '/img/galleries/portraiture/6-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/portraiture/7.jpg',
-							imageThumb: '/img/galleries/portraiture/7-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/portraiture/4.jpg',
-							imageThumb: '/img/galleries/portraiture/4-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/portraiture/3.jpg',
-							imageThumb: '/img/galleries/portraiture/3-thumb.jpg',
-							caption: ''
-						}
-					]
-				},
-				{
-					title: 'Misc.',
-					list: [
-						{
-							image: '/img/galleries/misc/1.jpg',
-							imageThumb: '/img/galleries/misc/1-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/misc/2.jpg',
-							imageThumb: '/img/galleries/misc/2-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/misc/3.jpg',
-							imageThumb: '/img/galleries/misc/3-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/misc/4.jpg',
-							imageThumb: '/img/galleries/misc/4-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/misc/5.jpg',
-							imageThumb: '/img/galleries/misc/5-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/misc/6.jpg',
-							imageThumb: '/img/galleries/misc/6-thumb.jpg',
-							caption: ''
-						},
-						{
-							image: '/img/galleries/misc/7.jpg',
-							imageThumb: '/img/galleries/misc/7-thumb.jpg',
-							caption: ''
-						}
-					]
-				}
-			]
-		}
 	}
 }
 </script>
@@ -391,6 +185,7 @@ export default {
 					flex: 1
 					cursor: pointer
 					margin: 1rem
+					min-height: 250px
 					box-sizing: content-box
 					@media (min-width: 42rem)
 						min-width: 40%
@@ -400,6 +195,7 @@ export default {
 						height: auto
 						width: auto
 						max-width: 100%
+						min-height: 245px
 						border-radius: 0.25rem
 						border: 0.25rem solid rgba(white, 0.8)
 						box-shadow: 0 0 1rem 0.25rem rgba(black, 0.5)

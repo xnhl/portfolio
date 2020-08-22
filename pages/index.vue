@@ -2,17 +2,18 @@
 	<div id="home-wrapper">
 		<div id="content-wrapper">
 			<div id="self-portrait">
-				<!-- <img id="self-portrait-image" src="/img/other/i.jpg" alt=""> -->
 				<img id="self-portrait-image" src="/img/other/mm.svg" alt="logo">
 			</div>
 			<p id="name">Matthew McCutcheon</p>
+			<hr id="divider">
 			<div id="titles">
 				<p class="titles-title">Front-End Web Developer</p>
-				<p class="titles-title">Image Creator</p>
+				<p class="titles-title">Image Maker</p>
 				</div>
 			<div id="contact">
 				<a class="contact-method" href="mailto:mwtheta@protonmail.com" target="_blank">
 					<img class="contact-method-image" src="/img/icons/email.svg" alt="email">
+					<p class="contact-method-text">mwtheta@protonmail.com</p>
 				</a>
 				<a class="contact-method" href="https://www.linkedin.com/in/matthew-mccutcheon-03851010b/" target="_blank">
 					<img class="contact-method-image" src="/img/icons/linkedin.svg" alt="linked in">
@@ -31,11 +32,7 @@
 
 <script>
 export default {
-	head() {
-		return {
-			title: 'Matthew McCutcheon'
-		}
-	}
+	
 }
 </script>
 
@@ -54,16 +51,6 @@ export default {
 		box-shadow: 0 0 1rem 0.5rem rgba(black, 0.1)
 		@media (min-width: 37.5rem)
 			margin-top: 7rem
-		// #self-portrait
-		// 	margin: 1rem
-		// 	min-width: 100%
-		// 	height: 300px
-		// 	width: 300px
-		// 	@include flexCenter
-		// 	#self-portrait-image
-		// 		border-radius: 50%
-		// 		border: 0.5rem solid rgba(white, 0.05)
-		// 		filter: drop-shadow(0 0 1rem rgba(black, 0.025))
 		#self-portrait
 			min-width: 100%
 			@include flexCenter
@@ -73,11 +60,18 @@ export default {
 				border-radius: 50%
 				opacity: 0.05
 				filter: drop-shadow(0 0 1rem rgba(black, 0.25))
+		#divider
+			width: 66%
+			border: 0
+			margin: 1rem auto
+			height: 1px
+			background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0))
 		#name
 			text-align: center
 			font-size: 2rem
+			line-height: 2rem
 			min-width: 100%
-			letter-spacing: 0.05rem
+			letter-spacing: 0.25rem
 		#titles
 			min-width: 100%
 			@include flexCenter
@@ -98,20 +92,26 @@ export default {
 				flex: 1
 				min-width: 20%
 				margin: 0.5rem
+				text-decoration: none
 				border-radius: 0.25rem
 				background: rgba(white, 0.025)
+				&:nth-child(1)
+					min-width: 90%
 				&:hover
 					box-shadow: 0 0 1rem 0.25rem rgba(black, 0.15)
 					background: rgba(white, 0.04)
 					.contact-method-image
 						transform: scale(1.15)
-						transition: transform 0.15s
+						transition: transform 0.1s
 				.contact-method-image
 					box-sizing: content-box
 					padding: 0.5rem
 					height: 2.5rem
 					width: 2.5rem
 					filter: drop-shadow(0 0 0.25rem rgba(black, 0.1))
+				.contact-method-text
+					font-size: 1.25rem
+					line-height: 1.25rem
 		#resume
 			@include flexCenter
 			align-items: stretch
