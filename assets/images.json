@@ -165,6 +165,35 @@
 		]
 	},
 	{
+		"title": "RGB",
+		"list": [
+			{
+				"image": "/img/galleries/rgb/1.jpg",
+				"imageThumb": "/img/galleries/rgb/1-thumb.jpg",
+				"caption": ""
+			},
+			{
+				"image": "/img/galleries/rgb/2.jpg",
+				"imageThumb": "/img/galleries/rgb/2-thumb.jpg",
+				"caption": ""
+			},
+			{
+				"image": "/img/galleries/rgb/3.jpg",
+				"imageThumb": "/img/galleries/rgb/3-thumb.jpg"
+			},
+			{
+				"image": "/img/galleries/rgb/4.jpg",
+				"imageThumb": "/img/galleries/rgb/4-thumb.jpg",
+				"caption": ""
+			},
+			{
+				"image": "/img/galleries/rgb/5.jpg",
+				"imageThumb": "/img/galleries/rgb/5-thumb.jpg",
+				"caption": ""
+			}
+		]
+	},
+	{
 		"title": "Misc",
 		"list": [
 			{

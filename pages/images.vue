@@ -137,7 +137,7 @@ export default {
 		position: sticky
 		top: 1.9rem
 		.image-gallery-menu-item
-			min-width: 10%
+			width: auto
 			flex: 1
 			background: #222
 			cursor: pointer
@@ -193,9 +193,7 @@ export default {
 						min-width: 30%
 					.series-image-actual
 						height: auto
-						width: auto
 						max-width: 100%
-						min-height: 245px
 						border-radius: 0.25rem
 						border: 0.25rem solid rgba(white, 0.8)
 						box-shadow: 0 0 1rem 0.25rem rgba(black, 0.5)
