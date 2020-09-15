@@ -185,7 +185,6 @@ export default {
 					flex: 1
 					cursor: pointer
 					margin: 1rem
-					min-height: 250px
 					box-sizing: content-box
 					@media (min-width: 42rem)
 						min-width: 40%

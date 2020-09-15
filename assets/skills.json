@@ -30,11 +30,6 @@
     "link": "https://svelte.dev"
   },
   {
-    "title": "Sapper",
-    "image": "/img/web-icons/sapper.svg",
-    "link": "https://sapper.svelte.dev"
-  },
-  {
     "title": "Sass",
     "image": "/img/web-icons/sass.svg",
     "link": "https://sass-lang.com"

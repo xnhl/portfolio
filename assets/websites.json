@@ -377,6 +377,44 @@
 		]
 	},
 	{
+		"title": "Browser Bookmarks Map",
+		"description": "Make an HTML map of your browser bookmarks (Firefox or Google Chrome). Transform them into HTML and Markdown files with a dark theme and an accordion-style layout for easier viewing and sharing.",
+		"image": "/img/web_new/bookmarks_site.jpg",
+		"versions": [
+			{
+				"title": "Vue",
+				"link": "http://ragged-rabbit.surge.sh/",
+				"repo": "https://github.com/xnhl/Bookmarks-Map-Website",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Vue.js",
+						"icon": "/img/web-icons/vuejs.svg"
+					},
+					{
+						"title": "Nuxt.js",
+						"icon": "/img/web-icons/nuxt.svg"
+					}
+				]
+			}
+		]
+	},
+	{
 		"title": "Deli News Pizza",
 		"description": "A re-design of the website for a local business. I converted their menu into JSON format and cleaned up the home banner image in Photoshop. Original website at: delinewspizza.com.",
 		"image": "/img/web_new/delinews.jpg",

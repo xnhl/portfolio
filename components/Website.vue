@@ -18,13 +18,13 @@
 						</div>
 					</div>
 					<div class="website-version-links">
-						<a :href="version.link" class="website-version-link" target="_blank">
+						<a :href="version.link" class="website-version-link" target="_blank" v-if="version.link">
 							<div class="website-version-link-icon-wrapper">
 								<img src="/img/icons/link.svg" alt="link" class="website-version-link-icon">
 							</div>
 							<p class="website-version-link-text">Website</p>
 						</a>
-						<a :href="version.repo" class="website-version-link" target="_blank">
+						<a :href="version.repo" class="website-version-link" target="_blank" v-if="version.repo">
 							<div class="website-version-link-icon-wrapper">
 								<img src="/img/icons/github.svg" alt="github" class="website-version-link-icon">
 							</div>

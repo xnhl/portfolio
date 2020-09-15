@@ -31,6 +31,11 @@
 				"image": "/img/galleries/studio/6.jpg",
 				"imageThumb": "/img/galleries/studio/6-thumb.jpg",
 				"caption": ""
+			},
+			{
+				"image": "/img/galleries/studio/7.jpg",
+				"imageThumb": "/img/galleries/studio/7-thumb.jpg",
+				"caption": ""
 			}
 		]
 	},
@@ -115,18 +120,28 @@
 			{
 				"image": "/img/galleries/skate/9.jpg",
 				"imageThumb": "/img/galleries/skate/9-thumb.jpg",
-				"caption": "Julian Davidson - Frontside flip"
+				"caption": "Julian Davidson - Frontside Flip"
 			},
 			{
 				"image": "/img/galleries/skate/10.jpg",
 				"imageThumb": "/img/galleries/skate/10-thumb.jpg",
 				"caption": "Bucky from AZ - Frontside Smith Grind"
+			},
+			{
+				"image": "/img/galleries/skate/11.jpg",
+				"imageThumb": "/img/galleries/skate/11-thumb.jpg",
+				"caption": "Bucky from AZ - Frontside Rock n' Roll"
 			}
 		]
 	},
 	{
 		"title": "People",
 		"list": [
+			{
+				"image": "/img/galleries/portraiture/5.jpg",
+				"imageThumb": "/img/galleries/portraiture/5-thumb.jpg",
+				"caption": "Re-creation of Magritte's 'The Pleasure Principle'"
+			},
 			{
 				"image": "/img/galleries/portraiture/1.jpg",
 				"imageThumb": "/img/galleries/portraiture/1-thumb.jpg",
@@ -138,9 +153,9 @@
 				"caption": ""
 			},
 			{
-				"image": "/img/galleries/portraiture/5.jpg",
-				"imageThumb": "/img/galleries/portraiture/5-thumb.jpg",
-				"caption": "Re-creation of Magritte's 'The Pleasure Principle'"
+				"image": "/img/galleries/portraiture/7.jpg",
+				"imageThumb": "/img/galleries/portraiture/7-thumb.jpg",
+				"caption": ""
 			},
 			{
 				"image": "/img/galleries/portraiture/6.jpg",
@@ -148,8 +163,13 @@
 				"caption": ""
 			},
 			{
-				"image": "/img/galleries/portraiture/7.jpg",
-				"imageThumb": "/img/galleries/portraiture/7-thumb.jpg",
+				"image": "/img/galleries/portraiture/9.jpg",
+				"imageThumb": "/img/galleries/portraiture/9-thumb.jpg",
+				"caption": ""
+			},
+			{
+				"image": "/img/galleries/portraiture/8.jpg",
+				"imageThumb": "/img/galleries/portraiture/8-thumb.jpg",
 				"caption": ""
 			},
 			{
@@ -190,6 +210,11 @@
 				"image": "/img/galleries/rgb/5.jpg",
 				"imageThumb": "/img/galleries/rgb/5-thumb.jpg",
 				"caption": ""
+			},
+			{
+				"image": "/img/galleries/rgb/6.jpg",
+				"imageThumb": "/img/galleries/rgb/6-thumb.jpg",
+				"caption": ""
 			}
 		]
 	},
@@ -222,8 +247,48 @@
 				"caption": ""
 			},
 			{
+				"image": "/img/galleries/misc/11.jpg",
+				"imageThumb": "/img/galleries/misc/11-thumb.jpg",
+				"caption": ""
+			},
+			{
+				"image": "/img/galleries/misc/8.jpg",
+				"imageThumb": "/img/galleries/misc/8-thumb.jpg",
+				"caption": ""
+			},
+			{
+				"image": "/img/galleries/misc/9.jpg",
+				"imageThumb": "/img/galleries/misc/9-thumb.jpg",
+				"caption": ""
+			},
+			{
+				"image": "/img/galleries/misc/10.jpg",
+				"imageThumb": "/img/galleries/misc/10-thumb.jpg",
+				"caption": ""
+			},
+			{
+				"image": "/img/galleries/misc/12.jpg",
+				"imageThumb": "/img/galleries/misc/12-thumb.jpg",
+				"caption": ""
+			},
+			{
+				"image": "/img/galleries/misc/14.jpg",
+				"imageThumb": "/img/galleries/misc/14-thumb.jpg",
+				"caption": ""
+			},
+			{
+				"image": "/img/galleries/misc/15.jpg",
+				"imageThumb": "/img/galleries/misc/15-thumb.jpg",
+				"caption": ""
+			},
+			{
 				"image": "/img/galleries/misc/6.jpg",
 				"imageThumb": "/img/galleries/misc/6-thumb.jpg",
+				"caption": ""
+			},
+			{
+				"image": "/img/galleries/misc/13.jpg",
+				"imageThumb": "/img/galleries/misc/13-thumb.jpg",
 				"caption": ""
 			},
 			{

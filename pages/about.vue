@@ -158,7 +158,7 @@ export default {
 					@media (min-width: 48rem)
 						min-width: 20%
 					@media (min-width: 65rem)
-						min-width: 17.5%
+						min-width: 15%
 					&:hover
 						background: rgba(white, 0.05)
 						box-shadow: 0 0 0.5rem 0.25rem rgba(black, 0.1)

@@ -17,9 +17,11 @@
 				</a>
 				<a class="contact-method" href="https://www.linkedin.com/in/matthew-mccutcheon-03851010b/" target="_blank">
 					<img class="contact-method-image" src="/img/icons/linkedin.svg" alt="linked in">
+					<p class="contact-method-text">LinkedIn</p>
 				</a>
 				<a class="contact-method" href="https://github.com/xnhl" target="_blank">
 					<img class="contact-method-image" src="/img/icons/github1.svg" alt="github">
+					<p class="contact-method-text">GitHub</p>
 				</a>
 			</div>
 			<div id="resume">
