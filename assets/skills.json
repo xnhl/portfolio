@@ -35,6 +35,11 @@
     "link": "https://sass-lang.com"
   },
   {
+    "title": "Node.js",
+    "image": "/img/web-icons/node.svg",
+    "link": "https://nodejs.org/"
+  },
+  {
     "title": "Bootstrap",
     "image": "/img/web-icons/bootstrap.svg",
     "link": "https://getbootstrap.com"

@@ -383,7 +383,7 @@
 		"versions": [
 			{
 				"title": "Vue",
-				"link": "http://ragged-rabbit.surge.sh/",
+				"link": "http://momentous-drug.surge.sh",
 				"repo": "https://github.com/xnhl/Bookmarks-Map-Website",
 				"tech": [
 					{
@@ -409,6 +409,21 @@
 					{
 						"title": "Nuxt.js",
 						"icon": "/img/web-icons/nuxt.svg"
+					}
+				]
+			},
+			{
+				"title": "Node.js (Command Line)",
+				"link": "",
+				"repo": "https://github.com/xnhl/Bookmarks-Map",
+				"tech": [
+					{
+						"title": "Node.js",
+						"icon": "/img/web-icons/node.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
 					}
 				]
 			}

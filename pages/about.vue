@@ -112,7 +112,6 @@ export default {
 					padding: 0.5rem
 					font-size: 1.05rem
 					flex: auto
-					// text-align: center
 					text-indent: 0.5rem
 					max-width: 55rem
 					&:last-child
@@ -156,7 +155,7 @@ export default {
 						min-width: 30%
 						max-width: 30%
 					@media (min-width: 48rem)
-						min-width: 20%
+						min-width: 19%
 					@media (min-width: 65rem)
 						min-width: 15%
 					&:hover

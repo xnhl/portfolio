@@ -70,7 +70,6 @@ export default {
 			height: auto
 			padding: 1rem
 			max-width: 100%
-			min-width: 245px
 			box-sizing: content-box
 			border-radius: 0.25rem
 	.website-info-wrapper
@@ -112,6 +111,8 @@ export default {
 				@media (min-width: 68rem)
 					min-width: 40%
 				.website-version-title
+					font-size: 1.1rem
+					line-height: 1.1rem
 					min-width: 100%
 					padding: 0.5rem
 					text-align: center
@@ -127,18 +128,22 @@ export default {
 						@include flexCenter
 						flex-direction: column
 						width: auto
-						flex-grow: 1
-						padding: 0.25rem
+						padding: 0.25rem 0.5rem
+						&:hover
+							.website-version-tech-item-icon-wrapper
+								.website-version-tech-item-icon
+									transform: scale(1.25)
 						.website-version-tech-item-icon-wrapper
 							@include flexCenter
 							.website-version-tech-item-icon
-								height: 2rem
-								min-width: 2rem
+								height: 2.5rem
+								width: 2.5rem
 								box-sizing: content-box
-								transition: transform 0.15s
+								transition: transform 0.1s
 						.website-version-tech-item-title
 							margin-top: 0.5rem
 							font-size: 0.9rem
+							line-height: 0.9rem
 				.website-version-links
 					@include flexCenter
 					width: 100%
@@ -158,15 +163,19 @@ export default {
 						background: rgba(white, 0.025)
 						&:hover
 							background: rgba(white, 0.05)
+							.website-version-link-icon-wrapper
+								.website-version-link-icon
+									transform: scale(1.25)
 						.website-version-link-icon-wrapper
 							@include flexCenter
 							width: auto
+							padding: 0.25rem
 							.website-version-link-icon
 								height: 1.5rem
 								width: 1.5rem
 								filter: invert(1)
-								padding: 0.25rem
 								box-sizing: content-box
+								transition: transform 0.1s ease-in-out
 						.website-version-link-text
 							margin: 0 0.5rem
 							@include flexCenter
