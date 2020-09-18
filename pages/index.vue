@@ -104,14 +104,15 @@ export default {
 					background: rgba(white, 0.04)
 					.contact-method-image
 						transform: scale(1.15)
-						transition: transform 0.1s
 				.contact-method-image
 					box-sizing: content-box
 					padding: 0.5rem
 					height: 2.5rem
 					width: 2.5rem
+					transition: transform 0.1s ease-in-out
 					filter: drop-shadow(0 0 0.25rem rgba(black, 0.1))
 				.contact-method-text
+					margin-left: 0.25rem
 					font-size: 1.25rem
 					line-height: 1.25rem
 		#resume

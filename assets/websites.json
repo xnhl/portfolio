@@ -345,7 +345,7 @@
 		"versions": [
 			{
 				"title": "Vue",
-				"link": "http://flimsy-sense.surge.sh",
+				"link": "http://economic-police.surge.sh",
 				"repo": "https://github.com/xnhl/notes-app",
 				"tech": [
 					{
@@ -371,6 +371,33 @@
 					{
 						"title": "Nuxt.js",
 						"icon": "/img/web-icons/nuxt.svg"
+					}
+				]
+			},
+			{
+				"title": "Svelte",
+				"link": "http://adorable-force.surge.sh",
+				"repo": "https://github.com/xnhl/notes-app-svelte",
+				"tech": [
+					{
+						"title": "HTML5",
+						"icon": "/img/web-icons/html5.svg"
+					},
+					{
+						"title": "CSS3",
+						"icon": "/img/web-icons/css3.svg"
+					},
+					{
+						"title": "Sass",
+						"icon": "/img/web-icons/sass.svg"
+					},
+					{
+						"title": "Javascript",
+						"icon": "/img/web-icons/javascript.svg"
+					},
+					{
+						"title": "Svelte",
+						"icon": "/img/web-icons/svelte.svg"
 					}
 				]
 			}

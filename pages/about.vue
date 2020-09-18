@@ -3,20 +3,6 @@
 		<div id="content-wrapper">
 			<div id="cv">
 				<div class="cv-section">
-					<div class="cv-section-header">Education</div>
-					<hr class="divider">
-					<div class="cv-section-text">
-						California State University, Long Beach (2015):<br>Bachelor of Fine Arts (BFA) - Focus in Art Photography
-					</div>
-				</div>
-				<div class="cv-section">
-					<div class="cv-section-header">Exhibitions</div>
-					<hr class="divider">
-					<div class="cv-section-text">
-						<em>This Image Before Me</em>(2015), Gatov Galleries, Long Beach, CA
-					</div>
-				</div>
-				<div class="cv-section">
 					<div class="cv-section-header">About Me</div>
 					<hr class="divider">
 					<div class="cv-section-text">
@@ -24,6 +10,20 @@
 					</div>
 					<div class="cv-section-text">
 						2+ years of experience with web development.
+					</div>
+				</div>
+				<div class="cv-section">
+					<div class="cv-section-header">Education</div>
+					<hr class="divider">
+					<div class="cv-section-text">
+						California State University, Long Beach (2011-2015):<br>Bachelor of Fine Arts (BFA) - Focus in Art Photography
+					</div>
+				</div>
+				<div class="cv-section">
+					<div class="cv-section-header">Art Exhibitions</div>
+					<hr class="divider">
+					<div class="cv-section-text">
+						<em>This Image Before Me</em>(2015), Gatov Galleries, Long Beach, CA
 					</div>
 				</div>
 			</div>
@@ -49,27 +49,27 @@ export default {
 			title: 'Matthew McCutcheon - About'
 		}
 	},
-	mounted() {
-		var lazyloadImages = document.querySelectorAll('.lazy');
-		var imageObserver = new IntersectionObserver((entries, observer) => {
-			entries.forEach((entry) => {
-				if (entry.isIntersecting) {
-					var image = entry.target;
-					image.src = image.dataset.lazysrc;
-					image.classList.remove('lazy');
-					imageObserver.unobserve(image)
-				}
-			})
-		});
-
-		lazyloadImages.forEach((image) => {
-			imageObserver.observe(image)
-		})
-	},
 	data () {
 		return {
 			skills
 		}
+	},
+	mounted() {
+		var lazyloadImages = document.querySelectorAll('.lazy')
+		var imageObserver = new IntersectionObserver((entries, observer) => {
+			entries.forEach((entry) => {
+				if (entry.isIntersecting) {
+					var image = entry.target
+					image.src = image.dataset.lazysrc
+					image.classList.remove('lazy')
+					imageObserver.unobserve(image)
+				}
+			})
+		})
+
+		lazyloadImages.forEach((image) => {
+			imageObserver.observe(image)
+		})
 	}
 }
 </script>
@@ -94,6 +94,8 @@ export default {
 				line-height: 1rem
 				@media (min-width: 37.5rem)
 					min-width: 40%
+					&:nth-child(1)
+						min-width: 100%
 				&:hover
 					.divider
 						width: 75%
@@ -118,7 +120,7 @@ export default {
 						text-align: left
 						text-indent: 0.5rem
 					em
-						margin-right: 0.25rem
+						margin-right: 0.33rem
 		#skills
 			margin-top: 1rem
 			background: rgba(white, 0.025)

@@ -39,49 +39,49 @@ export default {
 	},
 	methods: {
 		showModal: function (e) {
-			var modal = document.getElementById('image-modal');
-			var imageToShow = e.target.dataset.srclg;
-			modal.children[1].children[0].src = imageToShow;
+			var modal = document.getElementById('image-modal')
+			var imageToShow = e.target.dataset.srclg
+			modal.children[1].children[0].src = imageToShow
 			modal.classList.remove('hide')
 		},
 		closeModal: function () {
-			var modal = document.getElementById('image-modal');
+			var modal = document.getElementById('image-modal')
 			modal.classList.add('hide')
 		},
 		showSeries: function(e) {
-			var seriesArr = [...document.getElementsByClassName('series')];
-			var seriesToShow = e.target.textContent.toLowerCase();
-			var seriesMenuItems = [...e.target.parentNode.parentNode.children];
+			var seriesArr = [...document.getElementsByClassName('series')]
+			var seriesToShow = e.target.textContent.toLowerCase()
+			var seriesMenuItems = [...e.target.parentNode.parentNode.children]
 			seriesMenuItems.forEach(item => {
 				item.classList.remove('active')
-			});
-			e.target.parentNode.classList.add('active');
+			})
+			e.target.parentNode.classList.add('active')
 			seriesArr.forEach(series => {
-				series.classList.add('hide');
-				var seriesTitle = series.id.toLowerCase();
+				series.classList.add('hide')
+				var seriesTitle = series.id.toLowerCase()
 				if (seriesTitle === seriesToShow) {
-					series.classList.remove('hide');
+					series.classList.remove('hide')
 				}
-			});
-			window.scrollTo(0, 0);
+			})
+			window.scrollTo(0, 0)
 		}
 	},
 	mounted() {
-		var firstSeries = document.getElementsByClassName('series')[0];
-		var firstMenuItem = document.getElementsByClassName('image-gallery-menu-item')[0];
-		firstSeries.classList.remove('hide');
-		firstMenuItem.classList.add('active');
-		var lazyloadImages = document.querySelectorAll('.lazy');
+		var firstSeries = document.getElementsByClassName('series')[0]
+		var firstMenuItem = document.getElementsByClassName('image-gallery-menu-item')[0]
+		firstSeries.classList.remove('hide')
+		firstMenuItem.classList.add('active')
+		var lazyloadImages = document.querySelectorAll('.lazy')
 		var imageObserver = new IntersectionObserver((entries, observer) => {
 			entries.forEach((entry) => {
 				if (entry.isIntersecting) {
-					var image = entry.target;
-					image.src = image.dataset.lazysrc;
-					image.classList.remove('lazy');
+					var image = entry.target
+					image.src = image.dataset.lazysrc
+					image.classList.remove('lazy')
 					imageObserver.unobserve(image)
 				}
 			})
-		});
+		})
 		lazyloadImages.forEach((image) => {
 			imageObserver.observe(image)
 		})

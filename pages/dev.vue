@@ -16,27 +16,27 @@ export default {
 			title: 'Matthew McCutcheon - Code'
 		}
 	},
-	mounted() {
-		var lazyloadImages = document.querySelectorAll('.lazy');
-		var imageObserver = new IntersectionObserver((entries, observer) => {
-			entries.forEach((entry) => {
-				if (entry.isIntersecting) {
-					var image = entry.target;
-					image.src = image.dataset.lazysrc;
-					image.classList.remove('lazy');
-					imageObserver.unobserve(image)
-				}
-			})
-		});
-
-		lazyloadImages.forEach((image) => {
-			imageObserver.observe(image)
-		})
-	},
 	data() {
 		return {
 			websites
 		}
+	},
+	mounted() {
+		var lazyloadImages = document.querySelectorAll('.lazy')
+		var imageObserver = new IntersectionObserver((entries, observer) => {
+			entries.forEach((entry) => {
+				if (entry.isIntersecting) {
+					var image = entry.target
+					image.src = image.dataset.lazysrc
+					image.classList.remove('lazy')
+					imageObserver.unobserve(image)
+				}
+			})
+		})
+
+		lazyloadImages.forEach((image) => {
+			imageObserver.observe(image)
+		})
 	}
 }
 </script>
